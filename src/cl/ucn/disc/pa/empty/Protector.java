@@ -3,12 +3,15 @@ package cl.ucn.disc.pa.empty;
 import edu.princeton.cs.stdlib.StdDraw;
 
 import java.awt.*;
-
+/**
+* Protector de pantalla.
+*
+* @author Fabian Fernandez Rodriguez
+ */
 public class Protector {
-    /*
-     *Protector de pantalla.
-     *
-     *@author Fabian Fernandez Rodriguez
+
+    /**
+     * The Main.
      */
     public static void main(String[] args) {
 
