@@ -66,6 +66,7 @@ public class Protector {
 
         int i = 0;
         while (true) {
+            //Ciclo para cambio el color del fondo
             for (i=0;i<=300;i++) {
                 //Colosion
                 if (Math.abs(x0 + vx0) > 1.0) {
@@ -129,6 +130,8 @@ public class Protector {
                 StdDraw.line(x11, y11, x12, y12);
 
                 StdDraw.show();
+
+                //Cambio de color de fondo
                 if (i+1 <= 100) {
                     StdDraw.clear(Color.yellow);
                 }
